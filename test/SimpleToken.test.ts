@@ -1,6 +1,6 @@
 import { ethers } from "hardhat";
 
-describe.only('SimpleToken', function() {
+describe('SimpleToken', function() {
   it('Fauct Token', async function() {
     this.timeout(200000000);
 

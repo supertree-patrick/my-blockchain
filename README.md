@@ -37,3 +37,12 @@ tsconfig.json
 
 install deploy pakage
 yarn add --dev hardhat-deploy dotenv
+
+
+
+
+
+### deploy contract
+```
+npx hardhat deploy --network mumbai --tags simple-nft --reset
+```
