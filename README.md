@@ -33,3 +33,7 @@ tsconfig.json
   "files": ["./hardhat.config.ts"]
 }
 ```
+
+
+install deploy pakage
+yarn add --dev hardhat-deploy dotenv
