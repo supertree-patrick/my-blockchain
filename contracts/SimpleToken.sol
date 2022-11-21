@@ -1,4 +1,5 @@
 pragma solidity 0.8.4;
+import "hardhat/console.sol";
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
@@ -9,6 +10,7 @@ contract SimpleToken is ERC20 {
   }
 
   function faucet() external {
-    _transfer(address(this), msg.sender, 1000);
+    console.log("about ", 1e18);
+    _transfer(address(this), msg.sender, 1e18);
   }
 }
